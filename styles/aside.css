@@ -1,0 +1,40 @@
+aside {
+  background-color: var(--surface-secondary);
+  padding: 4rem;
+  max-height: 53rem;
+  max-width: 100vw;
+  min-width: 18.75rem;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  & .aside-container {
+    max-width: 31rem;
+    display: grid;
+    gap: 0.5rem;
+    margin-inline: auto;
+    word-wrap: break-word;
+  }
+
+  .image-ilustração {
+    margin-top: 2rem;
+    max-width: 100%;
+    object-fit: cover;
+    padding-block: auto;
+  }
+
+  p {
+    font: var(--text);
+    color: var(--text-secondary);
+  }
+
+  h2 {
+    font:var(--font-h2) 
+  }
+}
+
+.text-color{
+  color: var(--text-highlight);
+}
